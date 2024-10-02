@@ -12,12 +12,11 @@ function rockPaperScissors(player1, player2) {
     return 'draw';
   }else if(gameRules[`${player2}Weaknesses`].includes(player1) ){
     return 'player1'
-  }else{
-    return 'player2'
   }
+  return 'player2'
+  
      
 }
-
 
 
 
